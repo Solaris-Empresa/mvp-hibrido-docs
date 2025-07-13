@@ -3,78 +3,56 @@
 
 ### 📋 **Índice desta Seção**
 
-1. [Problema que Resolvemos](problema-solucao.md)
-2. [Esclarecimento da Abordagem Técnica](esclarecimento-tecnico.md)
-3. [Por que NÃO Modificamos o LibreChat](por-que-nao-modificar.md)
+#### 📄 **Documentos Técnicos Completos**
+- **[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](../assets/pdfs/1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf)**
+- **[📄 2-AbordagemhíbridaparaControledeTokensporUsuário-v1.00.pdf](../assets/pdfs/2-AbordagemhíbridaparaControledeTokensporUsuário-v1.00.pdf)**
+- **[📄 3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf](../assets/pdfs/3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf)**
+- **[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](../assets/pdfs/4-MVPControledeTokensIASOLARIS.v1.00.pdf)**
+
+#### 📖 **Conteúdo Organizado**
+
+1. **[🎯 Esclarecimento da Abordagem Técnica](esclarecimento-tecnico.md)**
+   - Por que NÃO modificamos o LibreChat
+   - Comparação: MVP Híbrida vs Customização
+   - Benefícios da arquitetura escolhida
+
+2. **[🏗️ Abordagem Híbrida Detalhada](abordagem-hibrida.md)**
+   - Arquitetura completa da solução
+   - Componentes e responsabilidades
+   - Fluxos de operação detalhados
+
+3. **[🔒 Controle Individual por Usuário](controle-individual.md)**
+   - Garantias de isolamento e segurança
+   - Mecanismos de controle granular
+   - Sistema de alertas personalizados
+
+4. **[🚀 MVP em 2 Fases](mvp-duas-fases.md)**
+   - Fase 1: Implementação manual
+   - Fase 2: Automação completa
+   - Estratégia de evolução incremental
+
+5. **[🎯 Problema e Solução](problema-solucao.md)**
+   - Definição clara do problema
+   - Justificativa da solução escolhida
+   - Resultados esperados
+
+### 🎯 **Como Navegar**
+
+Recomendamos seguir a ordem dos documentos para um **aprendizado progressivo**:
+
+1. **Comece** pelo esclarecimento técnico para entender a estratégia
+2. **Estude** a abordagem híbrida para visualizar a arquitetura
+3. **Compreenda** o controle individual para ver as garantias
+4. **Analise** as 2 fases para entender a implementação
+5. **Revise** o problema/solução para consolidar o conhecimento
+
+### 📞 **Suporte**
+
+Para dúvidas sobre esta seção:
+- **GitHub Issues** - Para questões técnicas
+- **Email**: dev@iasolaris.com.br
 
 ---
 
-### 🎯 **Objetivo desta Seção**
-
-Antes de mergulhar na implementação técnica, é fundamental entender:
-
-- **Qual problema** estamos resolvendo
-- **Por que escolhemos** a arquitetura híbrida
-- **Quais são os benefícios** desta abordagem
-- **Por que NÃO modificamos** o LibreChat
-
-### 📊 **Resumo Executivo**
-
-A IA SOLARIS precisa de **controle preciso de tokens por usuário** para:
-
-1. **Monetização justa** - Cada usuário paga pelo que consome
-2. **Controle de custos** - Evitar gastos excessivos com APIs
-3. **Experiência do usuário** - Alertas e bloqueios inteligentes
-4. **Escalabilidade** - Suportar crescimento sem modificar LibreChat
-
-### 🏆 **Nossa Solução: MVP Híbrida**
-
-```mermaid
-graph LR
-    A[LibreChat Original] --> B[Proxy IA SOLARIS]
-    B --> C[LiteLLM]
-    C --> D[OpenAI/Claude/etc]
-    
-    B --> E[PostgreSQL]
-    B --> F[Sistema de Alertas]
-    B --> G[Interface Admin]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-```
-
-### ✅ **Vantagens da Abordagem Híbrida**
-
-| Benefício | Descrição |
-|-----------|-----------|
-| **🔒 Zero Modificações** | LibreChat permanece inalterado |
-| **📊 Precisão 99%** | Controle exato via LiteLLM |
-| **🚀 Implementação Rápida** | Componentes independentes |
-| **🔧 Manutenção Fácil** | Updates sem afetar LibreChat |
-| **📈 Escalável** | Cresce conforme necessidade |
-
-### 📚 **Documentos de Referência**
-
-- 📄 [PDF: Esclarecimento da Abordagem Técnica](../assets/pdfs/1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf)
-- 📄 [PDF: Abordagem Híbrida Detalhada](../assets/pdfs/2-AbordagemhíbridaparaControledeTokensporUsuário-v1.00.pdf)
-- 📄 [PDF: Controle Individual Garantido](../assets/pdfs/3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf)
-
----
-
-### 🚀 **Próximo Passo**
-
-Agora que você entende o **contexto de negócio**, vamos mergulhar na **arquitetura técnica**:
-
-**➡️ [Arquitetura e Conceitos](../02-arquitetura/)**
-
----
-
-### 📖 **Navegação**
-
-- ⬅️ [Início](../../README.md)
-- ➡️ [Arquitetura](../02-arquitetura/)
-- 📋 [Implementação](../03-implementacao/)
-- 🎨 [Interfaces](../04-interfaces/)
-- 🔧 [Referência](../05-referencia/)
+**📖 Próximo:** [Arquitetura e Conceitos →](../02-arquitetura/)
 

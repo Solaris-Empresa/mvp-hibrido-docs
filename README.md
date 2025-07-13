@@ -74,7 +74,7 @@ Esta documentação foi criada pensando na **experiência do desenvolvedor**:
 ### 📞 **Suporte**
 
 - **GitHub Issues** - Para dúvidas técnicas
-- **Email**: uires.tapajos@iasolaris.com.br
+- **Email**: dev@iasolaris.com.br
 - **Projeto**: [IA SOLARIS GitHub Project](https://github.com/orgs/Solaris-Empresa/projects/1/views/4)
 
 ---
