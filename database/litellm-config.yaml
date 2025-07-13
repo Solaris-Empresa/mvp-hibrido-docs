@@ -1,0 +1,196 @@
+model_list:
+  # OpenAI Models
+  - model_name: gpt-3.5-turbo
+    litellm_params:
+      model: openai/gpt-3.5-turbo
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.0000015
+      output_cost_per_token: 0.000002
+      max_input_tokens: 16385
+      max_output_tokens: 4096
+
+  - model_name: gpt-3.5-turbo-16k
+    litellm_params:
+      model: openai/gpt-3.5-turbo-16k
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 16384
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.000003
+      output_cost_per_token: 0.000004
+      max_input_tokens: 16385
+      max_output_tokens: 16384
+
+  - model_name: gpt-4
+    litellm_params:
+      model: openai/gpt-4
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 8192
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.00003
+      output_cost_per_token: 0.00006
+      max_input_tokens: 8192
+      max_output_tokens: 8192
+
+  - model_name: gpt-4-turbo
+    litellm_params:
+      model: openai/gpt-4-turbo-preview
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.00001
+      output_cost_per_token: 0.00003
+      max_input_tokens: 128000
+      max_output_tokens: 4096
+
+  - model_name: gpt-4o
+    litellm_params:
+      model: openai/gpt-4o
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.000005
+      output_cost_per_token: 0.000015
+      max_input_tokens: 128000
+      max_output_tokens: 4096
+
+  - model_name: gpt-4o-mini
+    litellm_params:
+      model: openai/gpt-4o-mini
+      api_key: os.environ/OPENAI_API_KEY
+      max_tokens: 16384
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.00000015
+      output_cost_per_token: 0.0000006
+      max_input_tokens: 128000
+      max_output_tokens: 16384
+
+  # Anthropic Models (se disponível)
+  - model_name: claude-3-sonnet
+    litellm_params:
+      model: anthropic/claude-3-sonnet-20240229
+      api_key: os.environ/ANTHROPIC_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.000003
+      output_cost_per_token: 0.000015
+      max_input_tokens: 200000
+      max_output_tokens: 4096
+
+  - model_name: claude-3-opus
+    litellm_params:
+      model: anthropic/claude-3-opus-20240229
+      api_key: os.environ/ANTHROPIC_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.000015
+      output_cost_per_token: 0.000075
+      max_input_tokens: 200000
+      max_output_tokens: 4096
+
+  - model_name: claude-3-haiku
+    litellm_params:
+      model: anthropic/claude-3-haiku-20240307
+      api_key: os.environ/ANTHROPIC_API_KEY
+      max_tokens: 4096
+      temperature: 0.7
+    model_info:
+      mode: chat
+      input_cost_per_token: 0.00000025
+      output_cost_per_token: 0.00000125
+      max_input_tokens: 200000
+      max_output_tokens: 4096
+
+# Configurações gerais
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  database_url: os.environ/DATABASE_URL
+  
+  # Configurações de cache
+  redis_host: redis
+  redis_port: 6379
+  redis_password: os.environ/REDIS_PASSWORD
+  
+  # Configurações de logging
+  set_verbose: true
+  json_logs: true
+  
+  # Configurações de rate limiting
+  rpm_limit: 1000
+  tpm_limit: 100000
+  
+  # Configurações de timeout
+  request_timeout: 120
+  
+  # Configurações de retry
+  num_retries: 3
+  
+  # Configurações de fallback
+  fallbacks: [
+    {"gpt-4": ["gpt-4-turbo", "gpt-3.5-turbo"]},
+    {"gpt-4-turbo": ["gpt-4", "gpt-3.5-turbo"]},
+    {"claude-3-opus": ["claude-3-sonnet", "gpt-4"]}
+  ]
+
+# Configurações de router
+router_settings:
+  routing_strategy: "least-busy"
+  model_group_alias:
+    gpt-4-group: ["gpt-4", "gpt-4-turbo"]
+    gpt-3.5-group: ["gpt-3.5-turbo", "gpt-3.5-turbo-16k"]
+    claude-group: ["claude-3-opus", "claude-3-sonnet", "claude-3-haiku"]
+
+# Configurações de segurança
+litellm_settings:
+  # Desabilita telemetria
+  telemetry: false
+  
+  # Configurações de CORS
+  allow_cors: true
+  cors_origins: ["*"]
+  
+  # Configurações de autenticação
+  enforce_user_param: false
+  
+  # Configurações de logging de custos
+  success_callback: ["langfuse"]
+  failure_callback: ["langfuse"]
+
+# Configurações de monitoramento
+callbacks:
+  - langfuse
+  - prometheus
+
+# Configurações específicas do IA SOLARIS
+ia_solaris_settings:
+  # Fator de conversão de tokens
+  token_conversion_factor: 0.376
+  
+  # Configurações de alertas
+  alert_thresholds:
+    warning: 0.8
+    critical: 0.95
+  
+  # Configurações de bloqueio
+  auto_block_on_limit: true
+  
+  # Configurações de email
+  email_notifications: true
+
