@@ -1,0 +1,52 @@
+# GitHub Pages Configuration
+title: "MVP Híbrido - Controle de Tokens IA SOLARIS"
+description: "Documentação técnica completa para implementação do sistema de controle de tokens por usuário"
+baseurl: ""
+url: "https://solaris-empresa.github.io"
+
+# Theme
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - docs/01-negocio/README.md
+  - docs/02-arquitetura/README.md
+  - docs/03-implementacao/README.md
+  - docs/04-interfaces/README.md
+  - docs/05-referencia/README.md
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+      
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
