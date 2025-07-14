@@ -1,4 +1,4 @@
-<img width="2253" height="1089" alt="image" src="https://github.com/user-attachments/assets/d9f01e0f-47cf-4a23-be75-761a31a8f2f8" /># 🚀 Guia de Implementação
+# 🚀 Guia de Implementação
 ## MVP Híbrido - Controle de Tokens IA SOLARIS
 
 ### 📋 **Índice desta Seção**
