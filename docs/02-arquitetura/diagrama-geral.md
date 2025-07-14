@@ -3,7 +3,7 @@
 
 ### 📊 **Visão Macro do Sistema**
 
-![Arquitetura MVP Híbrido](../assets/diagramas/01-arquitetura-geral.png)
+![Arquitetura MVP Híbrido](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Arquitetura%20MVP%20H%C3%ADbrido.png)
 
 ### 🎯 **Conceito Principal**
 
