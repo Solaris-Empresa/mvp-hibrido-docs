@@ -46,11 +46,7 @@ Recomendamos seguir a ordem dos documentos para um **aprendizado progressivo**:
 4. **Analise** as 2 fases para entender a implementação
 5. **Revise** o problema/solução para consolidar o conhecimento
 
-### 📞 **Suporte**
 
-Para dúvidas sobre esta seção:
-- **GitHub Issues** - Para questões técnicas
-- **Email**: dev@iasolaris.com.br
 
 ---
 
