@@ -4,10 +4,10 @@
 ### 📋 **Índice desta Seção**
 
 #### 📄 **Documentos Técnicos Completos**
-- **[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](../assets/pdfs/1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf)**
-- **[📄 2-docs/assets/pdfs/2-AbordagemhibridaControleTokensUsuário-v1.00.pdf](../assets/pdfs/docs/assets/pdfs/2-AbordagemhibridaControleTokensUsuário-v1.00.pdf)**
-- **[📄 3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf](../assets/pdfs/docs/assets/pdfs/3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf)**
-- **[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](../assets/pdfs/docs/assets/pdfs/4-MVP-ControleTokensIA-SOLARIS.v1.00.pdf)**
+- **[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](../assets/pdfs/docs/assets/pdfs/1-Esclarecimento_Abordagem_Tecnica_da_MVP-v1.00.pdf)**
+- **[📄 2-docs/assets/pdfs/2-AbordagemhibridaControleTokensUsuário-v1.00.pdf](../assets/pdfs/docs/assets/pdfs/docs/assets/pdfs/2-AbordagemhibridaControleTokensUsuario-v1.00.pdf)**
+- **[📄 3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf](../assets/pdfs/docs/assets/pdfs/docs/assets/pdfs/3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf)**
+- **[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](../assets/pdfs/docs/assets/pdfs/docs/assets/pdfs/4-MVP-ControleTokensIA-SOLARIS.v1.00.pdf)**
 
 #### 📖 **Conteúdo Organizado**
 
