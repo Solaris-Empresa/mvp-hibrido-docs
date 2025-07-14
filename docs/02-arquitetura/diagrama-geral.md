@@ -152,9 +152,9 @@ A arquitetura híbrida foi projetada para **NÃO modificar o LibreChat**, manten
 
 ### 🚀 **Próximos Passos**
 
-1. **[Componentes Principais](componentes-principais.md)** - Detalhes de cada componente
-2. **[Fluxo de Dados](fluxo-dados.md)** - Como os dados fluem no sistema
-3. **[Estados do Sistema](estados-sistema.md)** - Estados possíveis e transições
+1. **[Componentes Principais](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Componentes%20T%C3%A9cnicos.png)** - Detalhes de cada componente
+2. **[Fluxo de Dados](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Fluxo%20de%20Dados.png)** - Como os dados fluem no sistema
+3. **[Fluxo do Processo](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Processo%20de%20Neg%C3%B3cio%20Ciclo%20Mensal%20de%20Tokens.png)** - Estados possíveis e transições
 
 ---
 
