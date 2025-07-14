@@ -99,14 +99,13 @@ Esta seção inclui **10+ diagramas técnicos** organizados por complexidade:
 - 
 
 #### **🔧 Técnicos (Médio)**
-- [Componentes Técnicos](../assets/diagramas/DiagramadeComponentesTécnicos.png)
-- [Fluxo de Dados](../assets/diagramas/DiagramadeFluxodeDados.png)
-- [Sequências de Operação](../assets/diagramas/1.SequênciaRequisiçãoNormalcomTokensDisponíveis.png)
+- [Componentes Técnicos](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Componentes%20T%C3%A9cnicos.png)
+
 
 #### **⚙️ Implementação (Avançado)**
-- [Deployment](../assets/diagramas/DiagramadeDeployment(ArquiteturadeProdução).png)
-- [Segurança](../assets/diagramas/DiagramadeSegurançaeAutenticação.png)
-- [Monitoramento](../assets/diagramas/DiagramadeMonitoramentoeObservabilidade.png)
+- [Deployment](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Deployment%20(Arquitetura%20de%20Produ%C3%A7%C3%A3o).png)
+- [Segurança](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Seguran%C3%A7a%20e%20Autentica%C3%A7%C3%A3o.png)
+- [Monitoramento](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Estados%20do%20Sistema%20de%20Monitoramento.png)
 
 ### 🎯 **Estados do Sistema**
 
