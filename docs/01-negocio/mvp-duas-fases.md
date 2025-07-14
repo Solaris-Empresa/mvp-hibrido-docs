@@ -5,7 +5,7 @@
 ### 📋 **Documento de Referência**
 
 Este conteúdo está baseado no documento oficial:
-**[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](../assets/pdfs/4-MVPControledeTokensIASOLARIS.v1.00.pdf)**
+**[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/4-MVP-ControleTokensIA-SOLARIS.v1.00.pdf)**
 
 ### 🎯 **Estratégia de Fases**
 
