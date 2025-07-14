@@ -206,12 +206,6 @@ volumes:
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
 - [Redis Docs](https://redis.io/docs/)
 
-#### **Exemplos de Código**
-- [Proxy Base](desenvolvimento-proxy.md#código-base)
-- [Middleware de Tokens](desenvolvimento-proxy.md#middleware-tokens)
-- [Configuração LiteLLM](integracao-litellm.md#configuração)
-- [Schema do Banco](infraestrutura.md#schema-banco)
-
 ---
 
 ### 🚀 **Próximo Passo**
