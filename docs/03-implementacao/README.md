@@ -1,4 +1,4 @@
-# 🚀 Guia de Implementação
+<img width="2253" height="1089" alt="image" src="https://github.com/user-attachments/assets/d9f01e0f-47cf-4a23-be75-761a31a8f2f8" /># 🚀 Guia de Implementação
 ## MVP Híbrido - Controle de Tokens IA SOLARIS
 
 ### 📋 **Índice desta Seção**
@@ -11,6 +11,12 @@
 
 
 
+1. [Pré-requisitos e Setup](Pré-requisitos%20e%20Setup%20-%20MVP%20IA%20SOLARIS.md)
+2. [Infraestrutura Base](Infraestrutura%20Base%20-%20MVP%20IA%20SOLARIS.md)
+3. [Desenvolvimento do Proxy](Desenvolvimento%20do%20Proxy%20Inteligente%20-%20MVP%20IA%20SOLARIS.md)
+4. [Integração com LiteLLM](Integração%20com%20LiteLLM%20-%20MVP%20IA%20SOLARIS.md)
+5. [Interfaces e Frontend](Interfaces%20e%20Frontend%20-%20MVP%20IA%20SOLARIS.md)
+6. [Testes e Validação](Testes%20e%20Validação%20-%20MVP%20IA%20SOLARIS.md)
 
 
 
