@@ -4,10 +4,12 @@
 ### 📋 **Índice desta Seção**
 
 #### 📄 **Documentos Técnicos Completos**
+
 - **[📄 1-Esclarecimento_Abordagem_Tecnica_da_MVP-v1.00.pdf](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/1-Esclarecimento_Abordagem_Tecnica_da_MVP-v1.00.pdf)**
 - **[📄 2-AbordagemhibridaControleTokensUsuario-v1.00.pdf](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/2-AbordagemhibridaControleTokensUsuario-v1.00.pdf)**
-- **[📄 [3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf]**](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf)
+- **[📄 https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/3-Controle_Individual_por_Usuario_na_MVP_Confiabilidade_Garantida-v1.00.pdf
 - **[📄 https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/4-MVP-ControleTokensIA-SOLARIS.v1.00.pdf
+
 #### 📖 **Conteúdo Organizado**
 
 1. **[🎯 Esclarecimento da Abordagem Técnica](esclarecimento-tecnico.md)**
