@@ -5,7 +5,7 @@
 
 #### 📄 **Documentos Técnicos Completos**
 - **[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](../assets/pdfs/1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf)**
-- **[📄 2-AbordagemhíbridaparaControledeTokensporUsuário-v1.00.pdf](../assets/pdfs/2-Abordagemh%C3%ADbridaparaControledeTokensporUsu%C3%A1rio-v1.00.pd)**
+- **[📄 2-AbordagemhíbridaparaControledeTokensporUsuário-v1.00.pdf](../assets/pdfs/2-Abordagemh%C3%ADbridaparaControledeTokensporUsu%C3%A1rio-v1.00.pdf)**
 - **[📄 3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf](../assets/pdfs/3-Controle_Individual_por_Usuário_na_MVP_Confiabilidade_Garantida-v1.00.pdf)**
 - **[📄 4-MVPControledeTokensIASOLARIS.v1.00.pdf](../assets/pdfs/4-MVPControledeTokensIASOLARIS.v1.00.pdf)**
 
