@@ -4,9 +4,7 @@
 ### 📋 **Índice desta Seção**
 
 1. [Diagrama Geral da Arquitetura](diagrama-geral.md)
-2. [Componentes Principais](componentes.md)
-3. [Fluxo de Dados e Sequências](fluxo-dados.md)
-4. [Estados do Sistema](estados-sistema.md)
+2. [Componentes Principais](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Componentes%20T%C3%A9cnicos.png)
 
 ---
 
@@ -21,7 +19,7 @@ Agora que você entende o **contexto de negócio**, vamos mergulhar na **arquite
 
 ### 🏗️ **Visão Geral da Arquitetura**
 
-![Arquitetura MVP Híbrido](../assets/diagramas/DiagramadeArquiteturaMVPHíbrido.png)
+![Arquitetura MVP Híbrido](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Arquitetura%20MVP%20H%C3%ADbrido.png)
 
 ### 🎯 **Princípios Fundamentais**
 
@@ -92,9 +90,13 @@ graph TD
 Esta seção inclui **10+ diagramas técnicos** organizados por complexidade:
 
 #### **📊 Conceituais (Fácil)**
-- [Arquitetura Geral](../assets/diagramas/DiagramadeArquiteturaMVPHíbrido.png)
+- [Arquitetura Geral](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Diagrama%20de%20Arquitetura%20MVP%20H%C3%ADbrido.png)
 - [Jornada do Usuário](../assets/diagramas/JornadaCompletadoUsuário-Fase1----Manual---+Fase2---Automática.png)
 - [Processo de Negócio](../assets/diagramas/ProcessodeNegócioGestãoCompletadeTokens.png)
+- [Diagrama de Estados](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Estados%20do%20Usu%C3%A1rio%20no%20Sistema.png)
+- [Fase 1- ] [(https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Processo%20de%20Neg%C3%B3cio%20Ciclo%20Mensal%20de%20Tokens.png)](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Processo%20Administra%C3%A7%C3%A3o%20de%20Cr%C3%A9ditos%20(Fase%201%20-%20Manual).png)
+- [Fase 2]- (https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/diagramas/Processo%20Integra%C3%A7%C3%A3o%20com%20Stripe%20(Fase%202).png
+- 
 
 #### **🔧 Técnicos (Médio)**
 - [Componentes Técnicos](../assets/diagramas/DiagramadeComponentesTécnicos.png)
@@ -124,11 +126,6 @@ O sistema opera em diferentes estados baseados no consumo:
 - Requisições bloqueadas
 - Modal de bloqueio exibido
 - Instrução para compra via email
-
-### 📚 **Documentos de Referência**
-
-- 📄 [PDF: MVP Controle de Tokens](../assets/pdfs/4-MVPControledeTokensIASOLARIS.v1.00.pdf)
-- 📄 [PDF: Diagramas Mermaid Completos](../assets/pdfs/6-DiagramasMermaid-MVPHíbridoControledeTokensIASOLARIS-v1.00.pdf)
 
 ---
 
