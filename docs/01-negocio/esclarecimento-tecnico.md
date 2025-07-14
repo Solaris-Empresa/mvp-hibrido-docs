@@ -5,7 +5,7 @@
 ### 📋 **Documento de Referência**
 
 Este esclarecimento está baseado no documento oficial:
-**[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](../assets/pdfs/1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf)**
+**[📄 1-Esclarecimento_Abordagem_Técnica_da_MVP-v1.00.pdf](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/pdfs/1-Esclarecimento_Abordagem_Tecnica_da_MVP-v1.00.pdf)**
 
 ### 🚨 **Esclarecimento Fundamental**
 
