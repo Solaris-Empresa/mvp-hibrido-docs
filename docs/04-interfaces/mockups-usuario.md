@@ -7,7 +7,7 @@ As interfaces de usuário foram projetadas para se integrar **naturalmente** ao 
 
 ### 📊 **1. Tela Principal do Chat**
 
-![Chat Principal](../assets/mockups/01-chat-principal.png)
+![Chat Principal](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/mockups/mockup_chat_principal.png)
 
 #### **Elementos Principais:**
 - **Contador de Tokens** (canto superior direito)
@@ -40,7 +40,7 @@ const TokenCounter = {
 
 ### 📋 **2. Extrato de Consumo**
 
-![Extrato de Consumo](../assets/mockups/02-extrato-consumo.png)
+![Extrato de Consumo](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/mockups/mockup_extrato_consumo.png)
 
 #### **Localização:**
 - **Menu**: Configurações → Extrato de Consumo
@@ -75,7 +75,7 @@ const TokenCounter = {
 
 ### 🛒 **3. Tela de Compra de Créditos**
 
-![Compra de Créditos](../assets/mockups/05-compra-creditos.png)
+![Compra de Créditos](https://github.com/Solaris-Empresa/mvp-hibrido-docs/blob/main/docs/assets/mockups/mockup_compra_creditos.png)
 
 #### **Estrutura da Página:**
 - **Header**: Logo IA SOLARIS + navegação
