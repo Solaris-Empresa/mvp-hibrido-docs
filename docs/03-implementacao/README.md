@@ -3,7 +3,7 @@
 
 ### 📋 **Índice desta Seção**
 
-1. [Pré-requisitos e Setup](Pré-requisitos e Setup - MVP IA SOLARIS.md)
+1. [Pré-requisitos e Setup]( Pré-requisitos e Setup - MVP IA SOLARIS.md )
 2. [Infraestrutura Base](Infraestrutura Base - MVP IA SOLARIS.md)
 3. [Desenvolvimento do Proxy](Desenvolvimento do Proxy Inteligente - MVP IA SOLARIS.md)
 4. [Integração com LiteLLM](Integração com LiteLLM - MVP IA SOLARIS.md)
