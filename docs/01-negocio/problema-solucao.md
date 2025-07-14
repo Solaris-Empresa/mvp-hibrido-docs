@@ -118,7 +118,7 @@ sequenceDiagram
 Agora que você entende o problema e nossa solução, vamos detalhar:
 
 1. **[Esclarecimento Técnico](esclarecimento-tecnico.md)** - Por que esta abordagem é superior
-2. **[Por que NÃO Modificar LibreChat](por-que-nao-modificar.md)** - Riscos evitados
+
 
 ---
 
